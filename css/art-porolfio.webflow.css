@@ -525,11 +525,9 @@ figcaption {
   color: #fff;
   -webkit-text-fill-color: inherit;
   background-color: #000;
-  background-image: url('../images/jae-kim-f2e996f2-69e7-4792-836e-dbdfb1f07df2-1280x1280.jpg');
-  background-position: 50%;
+  background-image: url('../images/pancake_wallpaper.png');
+  background-position: 50% 60%;
   background-repeat: repeat;
-  background-size: cover;
-  background-attachment: fixed;
   background-clip: border-box;
   outline: 3px #fff;
 }
@@ -1232,6 +1230,7 @@ figcaption {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 30px;
+  padding-right: 0;
 }
 
 .image-10, .image-11 {
@@ -1281,6 +1280,56 @@ figcaption {
   text-align: center;
 }
 
+.column-2, .column-3, .column-4, .column-5, .column-6, .column-7 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 40px;
+}
+
+.heading-6 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.section-6 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  text-align: center;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin: 40px auto;
+  display: block;
+}
+
+.heading-7 {
+  font-size: 36px;
+}
+
+.text-block-9 {
+  font-size: 14px;
+}
+
+.image-19 {
+  width: 500px;
+  display: inline-block;
+}
+
+.image-20 {
+  width: 500px;
+  object-fit: fill;
+  display: inline-block;
+}
+
+.heading-8 {
+  font-size: 20px;
+}
+
+.heading-9, .heading-10 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
 @media screen and (max-width: 991px) {
   .section.cc-cta {
     padding-left: 0;
@@ -1318,7 +1367,7 @@ figcaption {
   }
 
   .navigation-wrap {
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .navigation {
@@ -1443,11 +1492,14 @@ figcaption {
   }
 
   .about-grid {
+    grid-column-gap: 80px;
     grid-row-gap: 50px;
     text-align: center;
     grid-template: "."
                    "."
                    / 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
   }
 
   .about-grid.cc-about-2 {
@@ -1472,6 +1524,54 @@ figcaption {
     text-align: center;
     padding-right: 15px;
   }
+
+  .image-8 {
+    width: 50%;
+  }
+
+  .slide {
+    width: auto;
+    height: auto;
+  }
+
+  .slider-2 {
+    width: 380px;
+    height: 380px;
+  }
+
+  .columns-2 {
+    width: auto;
+    border-radius: 0;
+  }
+
+  .container-3 {
+    max-width: 950px;
+  }
+
+  .container-4 {
+    max-width: 450px;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    text-align: center;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: block;
+  }
+
+  .image-12, .image-13 {
+    width: 50%;
+  }
+
+  .column-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .image-18 {
+    float: none;
+    clear: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1487,6 +1587,11 @@ figcaption {
   .section.cc-home-wrap, .section.cc-store-home-wrap {
     margin-left: 15px;
     margin-right: 15px;
+  }
+
+  .section.footer {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .container {
@@ -1600,6 +1705,79 @@ figcaption {
   ._404-wrap {
     padding: 30px;
   }
+
+  .text-span-2 {
+    font-size: 32px;
+  }
+
+  .slider-2 {
+    width: 450px;
+    height: 100%;
+    clear: none;
+    text-align: center;
+    object-fit: fill;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .columns-2, .section-4 {
+    text-align: center;
+  }
+
+  .column-2, .column-3 {
+    padding-left: 40px;
+  }
+
+  .column-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .column-5, .column-6, .column-7 {
+    padding-left: 40px;
+  }
+
+  .image-14, .image-15, .column-8 {
+    text-align: left;
+  }
+
+  .column-9 {
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    padding-left: 10px;
+    display: flex;
+  }
+
+  .image-17 {
+    float: none;
+    clear: none;
+    position: static;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+
+  .mask-2 {
+    margin-left: 0;
+    position: static;
+    left: auto;
+  }
+
+  .columns-3 {
+    display: flex;
+  }
+
+  .bold-text-7, .bold-text-8, .bold-text-9, .bold-text-10, .bold-text-11, .bold-text-12 {
+    font-size: 38px;
+  }
+
+  .text-block-8 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1608,13 +1786,18 @@ figcaption {
     line-height: 52px;
   }
 
+  .section.footer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .rich-text {
     width: 100%;
     max-width: none;
   }
 
   .heading-jumbo {
-    font-size: 36px;
+    font-size: 24px;
     line-height: 48px;
   }
 
@@ -1661,6 +1844,72 @@ figcaption {
   .blog-detail-header-wrap, .blog-item {
     width: 100%;
     max-width: none;
+  }
+
+  .text-span-2 {
+    font-size: 26px;
+  }
+
+  .slide {
+    width: 210px;
+    height: 210px;
+  }
+
+  .slider-2 {
+    width: 210px;
+    height: 210px;
+    text-align: left;
+    flex-flow: row;
+    justify-content: flex-start;
+    display: flex;
+  }
+
+  .image-14 {
+    text-align: left;
+  }
+
+  .image-15 {
+    overflow: visible;
+  }
+
+  .mask {
+    clear: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: auto;
+  }
+
+  .image-16 {
+    width: auto;
+    text-align: left;
+    display: block;
+    overflow: visible;
+  }
+
+  .bold-text {
+    float: none;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+  }
+
+  .bold-text-2, .bold-text-3, .bold-text-4, .bold-text-5, .bold-text-6 {
+    font-size: 24px;
+  }
+
+  .columns-3 {
+    font-size: 9px;
+    line-height: 14px;
+  }
+
+  .bold-text-7, .bold-text-8, .bold-text-9, .bold-text-10, .bold-text-11, .bold-text-12, .bold-text-13 {
+    font-size: 30px;
+  }
+
+  .heading-11 {
+    font-size: 20px;
   }
 }
 
@@ -1738,7 +1987,8 @@ figcaption {
   }
 
   #w-node-_86e64837-0616-515b-4568-76c147234d3f-b2976731 {
-    grid-area: 1 / 1 / 2 / 2;
+    grid-area: span 1 / span 1 / span 1 / span 1;
+    justify-self: center;
   }
 
   #w-node-_86e64837-0616-515b-4568-76c147234d41-b2976731 {
@@ -1747,6 +1997,7 @@ figcaption {
 
   #w-node-_86e64837-0616-515b-4568-76c147234d4c-b2976731 {
     grid-area: 1 / 1 / 2 / 2;
+    justify-self: center;
   }
 
   #w-node-_421df62a-c217-12af-eee8-27f88a387928-b2976738, #w-node-_421df62a-c217-12af-eee8-27f88a387928-b2976739, #w-node-_421df62a-c217-12af-eee8-27f88a387928-b297673a, #w-node-c28cc763-f708-1e61-f196-6bd9fce9804a-b297673d {
